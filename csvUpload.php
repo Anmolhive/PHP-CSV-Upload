@@ -18,7 +18,7 @@ $run = $arraySize - $runAfter; // Total entries upload in bunch of 100.
 // Preparing for Upload. 
 $size = 0;
 $ifSize = 0;
-while ($size <= $whileRun + 1) {
+while ($size <= $whileRun) {
 
     //DataBase
     $conn = new mysqli("localhost", "root", "", "massupload");
