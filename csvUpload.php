@@ -1,5 +1,4 @@
 <?php
-
 $csvData = file_get_contents('Sheet.csv');
 $lines = explode(PHP_EOL, $csvData);
 $csv = array();
