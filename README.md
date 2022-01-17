@@ -10,7 +10,7 @@ Then, put that exploded lines as an array in an array by the index of row.
 
 After that, Capture the number of times the loop took.
 Then, Divide it by 100 and Change it in int and store it in $whileRun.
-then, Run the While loop $whileRun + 1 Times so that we cove all data.
+then, Run the While loop $whileRun Times so that we cove all data.
 
 After that, We find out how many times our For loop have Run by simply,
 First How many Entries left After All While loop Multiply by How many times For loop gonna Run in Per While Loop, In My case, it is 100.
